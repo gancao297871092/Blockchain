@@ -9,12 +9,10 @@ export default class App extends Component {
     render() {
         return <Router forcerefresh={true}>
             <div className="AppContainer">
-                <div>
-                    <Route path="/" exact component={StartPage} />
-                    <Route path="/login" exact component={Login} />
-                    <Route path="/home/" exact component={Home} />
-                    <Redirect from="/*" to="/" />
-                </div>
+                <Route path="/" exact component={StartPage} />
+                <Route path="/login" exact component={Login} />
+                <Route path="/home/" exact component={Home} />
+                <Redirect from="/*" to="/" />
             </div>
         </Router>
     }
