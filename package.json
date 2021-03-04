@@ -11,8 +11,11 @@
     "axios": "^0.21.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "customize-cra": "^1.0.0",
+    "i18next": "^19.9.1",
+    "pikaz-translate": "0.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
@@ -21,7 +24,8 @@
     "start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "translate": "node src/translate.js"
   },
   "eslintConfig": {
     "extends": [
