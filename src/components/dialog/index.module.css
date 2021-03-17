@@ -1,0 +1,68 @@
+.modelStyle{
+    width: 16.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3.125rem;
+}
+
+.modelImg{
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-top: 1.9375rem;
+}
+
+.modelTitle{
+    font-size: 1rem;
+    font-family: PingFangTC-Medium, PingFangTC;
+    font-weight: 500;
+    color: #141516;
+    line-height: 1rem;
+    margin-top: 1.25rem;
+}
+
+.modelContent{
+    font-size: .875rem;
+    font-family: PingFangTC-Regular, PingFangTC;
+    font-weight: 400;
+    color: #626D7E;
+    line-height: 1.3125rem;
+    max-width: 14.75rem;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+.modelLargeContent{
+    font-size: 1rem;
+    font-family: PingFangTC-Regular, PingFangTC;
+    font-weight: 400;
+    color: #626D7E;
+    line-height: 1.5rem;
+    max-width: 14.75rem;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+.btnView{
+    width: 100%;
+    height: 2.75rem;
+    margin-top: 2.5rem;
+    border-radius: .25rem;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #34B498;
+}
+
+.btnText{
+    font-size: 1rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1.375rem;
+}

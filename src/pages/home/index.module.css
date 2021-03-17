@@ -1,0 +1,115 @@
+.contaner{
+    background: linear-gradient(360deg, rgba(232, 233, 235, 0) 0%, #58585F 100%);
+    overflow-x: hidden;
+}
+
+.contaner::-webkit-scrollbar {
+    display:none
+}
+
+.flexView{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 12px;
+}
+
+.linearBg{
+    width:100%;
+    height: 375px;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(360deg, rgba(232, 233, 235, 0) 0%, #9799A2 35%, #33333F 100%);
+ }
+
+.mapBg{
+    height: 190px;
+    position: absolute;
+    z-index: 2;
+}
+
+.title{
+    font-size: 24px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.text{
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 14px;
+    margin-top: 22px;
+}
+
+
+.content{
+    position: relative;
+    z-index: 3;
+    padding-top: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 31px;
+    overflow: hidden;
+}
+
+.card{
+    background: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(21, 48, 101, 0.08);
+    border-radius: 16px;
+    margin-top: 30px;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+}
+
+.btc{
+    font-size: 20px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #0E1213;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.btcValue{
+    font-size: 14px;
+    font-family: DINAlternate-Bold, DINAlternate;
+    font-weight: bold;
+    color: #9099A9;
+    line-height: 14px;
+    margin-left: 10px;
+}
+
+.cardItem{
+    flex: 1;
+    background: rgba(40, 115, 255, 0.04);
+    border-radius: 8px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardItemTile{
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9099A9;
+    line-height: 12px;
+}
+
+.cardItemValue{
+    font-size: 18px;
+    font-family: DINAlternate-Bold, DINAlternate;
+    font-weight: bold;
+    color: #0E1213;
+    line-height: 18px;
+    margin-top: 12px;
+}

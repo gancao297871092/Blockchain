@@ -1,0 +1,302 @@
+
+@font-face {
+    font-family: MyRubik;
+    src: url(@/font/Rubik-Bold-Italic.ttf);
+}
+
+.body{
+    background: linear-gradient(360deg, #7A7D89 0%, #3D3E4A 85%, #33333F 100%);
+    position: relative;
+    width: 100%
+}
+
+.mapBg{
+    width: 100%;
+    height: 11.875rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.bottomBg{
+    width: 100%;
+    height: 12.5rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+    padding-left: 12px;
+    padding-right:  12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.grays{
+    font-size: 44px;
+    font-family: MyRubik;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 44px;
+    text-shadow:#34B498 3px 2px 0;
+    margin-top: 7.75rem;
+}
+
+.titleImg{
+    width: 10.875rem;
+    height: 1.875rem;
+}
+
+.titleView{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.point{
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-left: .625rem;
+}
+
+.runingView{
+    padding: 0 1.875rem 0rem 1.875rem;
+    background: #24D895;
+    margin-top: 4.375rem
+}
+
+.runingText{
+    font-size: 1.25rem;
+    font-family: MyRubik;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 1.25rem;
+}
+
+.depositText{
+    font-size: 1rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.375rem;
+    max-width: 21.875rem;
+    text-align: center;
+    margin-top: 1.875rem;
+}
+
+.botPoint{
+    position: absolute;
+    bottom: 2.1875rem;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.next{
+    font-size: 1rem;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 1rem;
+}
+
+.title{
+    font-size: 1.625rem;
+    font-family: MyRubik;
+    font-weight: normal;
+    color: #24D895;
+    line-height: 2.4375rem;
+    max-width: 21.875rem;
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+.fastest{
+    font-size: 1rem;
+    font-style: italic;
+    color: #FFFFFF;
+    line-height: 1.5rem;
+    max-width: 21.875rem;
+    text-align: center;
+}
+
+.cardView{
+    display: flex;
+    flex-direction: column;
+    padding: 0 .625rem 1rem .625rem;
+    margin-top: 1rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+}
+
+.cardItemView{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.itemImg{
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+.itemTitle{
+    font-size: 1.125rem;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 1.125rem;
+}
+
+.takeText{
+    font-size: .875rem;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 1.25rem;
+    margin-top: .3125rem;
+}
+
+.takeView{
+    margin-left: .625rem;
+}
+
+.pledgeView{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    border-top: 0;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255,1), rgba(255, 255, 255, 0)) 1 1;
+}
+
+.pledgeItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;
+    border-bottom: .03125rem solid rgba(255, 255, 255, 0.2);
+}
+
+.pledgeItemTitle{
+    font-size: 1rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1rem;
+}
+
+.pledgeValue{
+    font-size: 1.5rem;
+    font-family: DINAlternate-Bold, DINAlternate;
+    font-weight: bold;
+    color: #24D895;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.userView{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.userImg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.capitalView{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.capitalItem{
+    height: 3.75rem;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255,1), rgba(255, 255, 255, 0)) 1 1;
+}
+
+.goBtnView{
+    width: 19.4375rem;
+    height: 2.75rem;
+    background: #34B498;
+    border-radius: .25rem;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goText{
+    font-size: 1rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1.375rem;
+}
+
+.nextImg{
+    width: 1rem;
+    height: 1rem;
+    margin-top: .875rem;
+}
+
+.zhizhuImg{
+    width: 1.9375rem;
+    height: 1.5625rem;
+}
+
+.confirmationImg{
+    width: 1.625rem;
+    height: 1.625rem;
+}
+
+.a16zImg{
+    width: 4.625rem;
+    height: 1.25rem;
+}
+
+.bcvImg{
+    width: 4.75rem;
+    height: 1.125rem;
+}
+
+.craftImg{
+    width: 4.25rem;
+    height: .625rem;
+}
+
+.defianceImg{
+    width: 4.4375rem;
+    height: 1.625rem;
+}
+
+.dragonflyImg{
+    width: 4.75rem;
+    height: 1.375rem;
+}
+
+.kindredImg{
+    width: 3.0625rem;
+    height: 1.125rem;
+}

@@ -1,0 +1,134 @@
+.contaner{
+   background: #fff;
+}
+ 
+.flexView{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+}
+
+.linearBg{
+   width: 100%;
+   height: 23.4375rem;
+   position: absolute;
+   z-index: 1;
+   background: linear-gradient(360deg, rgba(232, 233, 235, 0) 0%, #9799A2 35%, #33333F 100%);
+}
+
+.mapBg{
+   height: 11.875rem;
+   position: absolute;
+   z-index: 2;
+}
+
+.content{
+   position: relative;
+   z-index: 3;
+   padding-top: 4.375rem;
+   padding-left: .75rem;
+   padding-right: .75rem;
+}
+
+.goback{
+   width: 1.5rem;
+   height: 1.5rem;
+}
+
+.card{
+   flex: 1;
+   height: 32.375rem;
+   background-color: #fff;
+   border-radius: 1rem;
+   margin-top: 1.25rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.title{
+   font-size: 1.25rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #141516;
+   line-height: 1.25rem;
+   margin-top: 2.5rem;
+}
+
+.descripe{
+   font-size: 1rem;
+   font-family: PingFangSC-Regular, PingFang SC;
+   font-weight: 400;
+   color: #626D7E;
+   line-height: 1.5rem;
+   max-width: 19.5rem;
+   margin-top: 1.25rem;
+}
+
+.btnView{
+   background-color: #34B498;
+   border-radius: .25rem;
+   height: 2.75rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2.5rem;
+}
+
+.btnText{
+   font-size: 1rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #FFFFFF;
+   line-height: 1.375rem;
+}
+
+.inputView{
+   height: 2.75rem;
+   margin-top: 2.5rem;
+   position: relative;
+}
+
+.inputSecondView{
+   height: 2.75rem;
+   margin-top: 4rem;
+   position: relative;
+}
+
+.input{
+   width: 100%;
+   height: 100%;
+   border: 0;
+   margin-left: .3125rem;
+   letter-spacing: 3.125rem;
+   color: transparent;
+   caret-color: transparent;
+}
+
+.blockView{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   background-color: #fff;
+}
+
+.block{
+   flex:1;
+   height: 100%;
+   margin-left: .5625rem;
+   background-color: #ECEDEF;
+   border-radius: .25rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.blockY{
+   width: .625rem;
+   height: .625rem;
+   border-radius: .3125rem;
+   background-color: #141516;
+}

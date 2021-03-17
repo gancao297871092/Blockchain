@@ -1,0 +1,296 @@
+@font-face {
+  font-family: MyRubik;
+  src: url(@/font/Rubik-Bold-Italic.ttf);
+}
+
+.contaner {
+  background: linear-gradient(360deg, #7a7d89 0%, #33333f 100%);
+}
+
+.flexView {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mapBg {
+  height: 190px;
+  position: absolute;
+  z-index: 2;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  margin-top: 1.875rem;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 9.375rem;
+  overflow: hidden;
+}
+
+.cardContainer {
+  margin-top: 5rem;
+}
+
+.missionContainer_title {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: MyRubik;
+  text-shadow: #34b498 3px 2px 0;
+}
+
+.missionContainer_title2 {
+  margin: 1.5rem auto 0;
+  height: 1.125rem;
+  font-size: 1.125rem;
+  font-family: MyRubik;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 1.375rem;
+}
+
+.missionContainer_content {
+  margin-top: 0.625rem;
+  width: 21.9375rem;
+  height: 2.625rem;
+  font-size: 0.875rem;
+  font-family: MyRubik;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.3125rem;
+}
+
+.cells_container {
+  margin-top: 2.5rem;
+  width: 15.3125rem;
+  height: 1.75rem;
+  background: #24d895;
+}
+
+.cells_container_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15rem;
+  height: 1.75rem;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0.375rem;
+  border-right: 0.125rem solid #333;
+  font-family: MyRubik;
+}
+
+.cells_container_text {
+  margin: 0.4375rem auto 0;
+  width: 21.9375rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 1.25rem 0.625rem;
+  border-top: 0;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    )
+    1 1;
+}
+
+.cells_container_content1 {
+  width: 20.6875rem;
+  /* height: 7.5rem; */
+  font-size: 0.875rem;
+  font-family: MyRubik;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.25rem;
+}
+
+.cells_container1 {
+  margin-top: 2.5rem;
+  width: 17.4375rem;
+  height: 1.75rem;
+  background: #24d895;
+}
+
+.cells_container_content2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 17.125rem;
+  height: 1.75rem;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0.375rem;
+  border-right: 0.125rem solid #333;
+  font-family: MyRubik;
+}
+
+.cells_container_content3 {
+  width: 20.6875rem;
+  font-size: 0.875rem;
+  font-family: MyRubik;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.25rem;
+}
+
+.cells_container_text1 {
+  margin: 0.4375rem auto 0;
+  width: 21.9375rem;
+  /* height: 8.75rem; */
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 1.25rem 0.625rem;
+  border-top: 0;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    )
+    1 1;
+}
+
+.worldWide {
+  font-family: MyRubik;
+  margin-top: 2.5rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.global {
+  margin-top: 0.625rem;
+  width: 21.9375rem;
+  height: 2.625rem;
+  font-size: 0.875rem;
+  font-family: MyRubik;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.3125rem;
+}
+
+.grid_container {
+  justify-content: space-between;
+  width: 21.9375rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.6875rem;
+}
+
+.grid_container_item {
+  width: 10.6875rem;
+  height: 3.75rem;
+  background: #34b498;
+  border-radius: 0.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.footer_text {
+  text-align: center;
+  margin: 1.875rem auto 0;
+  width: 21.8125rem;
+  font-size: 1.125rem;
+  font-family: MyRubik;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 1.375rem;
+}
+
+.bottomBg {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+}
+
+.grid_container_item {
+  width: 10.6875rem;
+
+  background: rgba(255, 255, 255, 0.08);
+  height: 3.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    )
+    1 1;
+}
+
+.zhizhuImg {
+  width: 1.9375rem;
+  height: 1.5625rem;
+}
+
+.confirmationImg {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+
+.a16zImg {
+  width: 4.625rem;
+  height: 1.25rem;
+}
+
+.bcvImg {
+  width: 4.75rem;
+  height: 1.125rem;
+}
+
+.craftImg {
+  width: 4.25rem;
+  height: 0.625rem;
+}
+
+.defianceImg {
+  width: 4.4375rem;
+  height: 1.625rem;
+}
+
+.dragonflyImg {
+  width: 4.75rem;
+  height: 1.375rem;
+}
+
+.kindredImg {
+  width: 3.0625rem;
+  height: 1.125rem;
+}
+
+.polychainImg {
+  width: 5.75rem;
+  height: 0.625rem;
+}
+.rocktreeImg {
+  width: 4.875rem;
+  height: 0.75rem;
+}
+.scalarImg {
+  height: 3.1875rem;
+  height: 1.25rem;
+}
+.spartanImg {
+  width: 1.0625rem;
+  height: 1.5rem;
+}

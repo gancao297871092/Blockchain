@@ -1,0 +1,264 @@
+.contaner{
+   background: #fff;
+}
+
+.linearBg{
+   width: 100%;
+   height: 20.4375rem;
+   position: absolute;
+   z-index: 1;
+   background: linear-gradient(360deg, rgba(232, 233, 235, 0) 0%, #9799A2 35%, #33333F 100%);
+}
+
+.mapBg{
+   width: 100%;
+   height: 11.875rem;
+   position: absolute;
+   z-index: 2;
+}
+
+.content{
+   position: relative;
+   z-index: 3;
+   padding-top: 5rem;
+   padding-left: .75rem;
+   padding-right:  .75rem;
+}
+
+.headView{
+   background-color: #fff;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+   padding-bottom: .625rem;
+   top: 5rem;
+}
+
+.card{
+   height: 35.9375rem;
+   background-color: #fff;
+   border-radius: 1rem;
+   position: relative;
+   margin-top: 1.25rem;
+}
+
+.cardSContent{
+   flex: 1;
+   margin-left: 1.25rem;
+   margin-right: 1.25rem;
+   padding-top: 4.0625rem;
+   opacity: 0;
+}
+
+.cardContent{
+   flex: 1;
+   background-color: #fff;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+   padding-left: 1.25rem;
+   padding-right: 1.25rem;
+}
+
+.totalTView{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   padding-top: 1.25rem;
+}
+
+.totalTitle{
+   font-size: 1rem;
+   font-family: PingFangSC-Regular, PingFang SC;
+   font-weight: 400;
+   color: #141516;
+   line-height: 1rem;
+}
+
+.btcT{
+   font-size: 1rem;
+   font-family: PingFangSC-Regular, PingFang SC;
+   font-weight: 400;
+   color: #0E1213;
+   line-height: 1rem;
+   margin-left: .25rem;
+}
+
+.btcImg{
+   width: 1rem;
+   height: 1rem;
+   margin-left: .25rem;
+}
+
+.valueView{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   margin-top: 1.25rem;
+}
+
+.valueText{
+   font-size: 2rem;
+   font-family: DINAlternate-Bold, DINAlternate;
+   font-weight: bold;
+   color: #141516;
+   line-height: 2rem;
+}
+
+.valueT{
+   font-size: .875rem;
+   font-family: DINAlternate-Bold, DINAlternate;
+   font-weight: bold;
+   color: #9099A9;
+   line-height: .875rem;
+   margin-left: .625rem;
+}
+
+.linkView{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   margin-top: 1.25rem;
+}
+
+.linkImg{
+   width: 1rem;
+   height: 1rem;
+   margin-left: .3125rem;
+}
+
+.linkText{
+   font-size: 1rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #626D7E;
+   line-height: 1rem;
+   text-decoration: underline;
+}
+
+.btnBody{
+   height: 2.75rem;
+   flex:1;
+   margin-top: 2.5rem;
+   display: flex;
+   flex-direction: row;
+}
+
+.btnLeftView{
+   flex: 1;
+   height: 100%;
+   border-radius: .25rem;
+   border: .03125rem solid #34B498;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.btnRightView{
+   flex: 1;
+   height: 100%;
+   margin-left: .75rem;
+   background-color: #34B498;
+   border-radius: .25rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.btnLeftText{
+   font-size: 1rem;
+   font-family: PingFangTC-Medium, PingFangTC;
+   font-weight: 500;
+   color: #34B498;
+   line-height: 1.375rem;
+}
+
+.btnRightText{
+   font-size: 1rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #FFFFFF;
+   line-height: 1.375rem;
+}
+
+.navView{
+   display: flex;
+   align-items: center;
+   margin-top: 2.5rem;
+}
+
+.navLeftView{
+   border-bottom: .1875rem solid #34B498
+}
+
+.navRightView{
+   border-bottom: .1875rem solid #34B498;
+   margin-left: 1.25rem;
+}
+
+.btnLeftText{
+   font-size: 1rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #34B498;
+   line-height: 1.25rem;
+}
+
+.btnRightText{
+   font-size: 1rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #aaa;
+   line-height: 1.25rem;
+}
+
+.itemView{
+   flex: 1;
+   margin-left: 1.25rem;
+   margin-right: 1.25rem;
+   height: 5.125rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-bottom: .03125rem solid rgba(0, 0, 0, 0.08);
+}
+
+.btcView{
+   display: flex;
+   align-items: center;
+}
+
+.itemBtc{
+   width: 1.25rem;
+   height: 1.25rem;
+}
+
+.itemBtcT{
+   font-size: 1rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #0E1213;
+   line-height: 1rem;
+   margin-left: .3125rem;
+}
+
+.valueView{
+   display: flex;
+   align-items: center;
+   margin-top: 1.375rem;
+}
+
+.value{
+   font-size: 1.125rem;
+   font-family: DINAlternate-Bold, DINAlternate;
+   font-weight: bold;
+   color: #141516;
+   line-height: 1.125rem;
+}
+
+.values{
+   font-size: .875rem;
+   font-family: LucidaGrande-Bold, LucidaGrande;
+   font-weight: bold;
+   color: #9099A9;
+   line-height: .875rem;
+   margin-left: .625rem;
+}

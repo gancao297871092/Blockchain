@@ -1,0 +1,90 @@
+.myDrawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 1;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+}
+
+.userHead{
+    width: 36px;
+    height: 36px;
+    background-color: red;
+    border-radius: 18px;
+    margin-left: 12px;
+}
+
+.userName{
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #0E1213;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.right{
+    width: 14px;
+    height: 14px; 
+    margin-left: 5px;
+}
+
+.drawView{
+    margin-top: 10px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    flex: 1;
+}
+
+.drawContent{
+    margin-top: 10px;
+    width: '100%';
+    background: linear-gradient(180deg, #FBFCFF 0%, #F6F9FD 100%);
+    border-radius: 8px;
+}
+
+.drawItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    flex: 1;
+    border-bottom: .5px solid rgba(0, 0, 0, 0.08);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+}
+
+.itemText{
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #626D7E;
+    /* line-height: 16px; */
+    margin-left: 6px;
+}
+
+.linkApp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 76px;
+    flex: 1;
+    background: '#fff'
+}
+
+.linkImg{
+    width: 36px;
+    height: 36px;
+}
+

@@ -1,0 +1,84 @@
+.contaner{
+    background: '#fff';
+ }
+  
+.linearBg{
+   width:100%;
+   height: 23.4375rem;
+   position: fixed;
+   z-index: 1;
+   background: linear-gradient(360deg, rgba(232, 233, 235, 0) 0%, #9799A2 35%, #33333F 100%);
+}
+ 
+.mapBg{
+   height: 11.875rem;
+   position: fixed;
+   z-index: 2;
+}
+
+.content{
+   position: relative;
+   z-index: 3;
+   padding-top: 72px;
+   padding-left: 12px;
+   padding-right: 12px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   overflow: hidden;
+}
+
+.itemView{
+   display: flex;
+   padding: 1.25rem;
+   padding-bottom: 0;
+}
+
+.borderView{
+   display: flex;
+   border-bottom: .03125rem solid rgba(0, 0, 0, 0.08);
+   padding-bottom: 1.25rem;
+}
+
+.noticeImg{
+   width: 2.75rem;
+   height: 2.75rem;
+}
+
+.textView{
+   flex: 1;
+   margin-left: .625rem;
+}
+
+.noticeText{
+   font-size: 1rem;
+   font-family: PingFangSC-Medium, PingFang SC;
+   font-weight: 500;
+   color: #0E1213;
+   line-height: 1rem;
+}
+
+.timeText{
+   font-size: .875rem;
+   font-family: PingFangSC-Regular, PingFang SC;
+   font-weight: 400;
+   color: #9099A9;
+   line-height: .875rem;
+}
+
+.noticeView{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.notice{
+   font-size: .875rem;
+   font-family: PingFangSC-Regular, PingFang SC;
+   font-weight: 400;
+   color: #626D7E;
+   line-height: 1.3125rem;
+   margin-top: .625rem;
+}
+

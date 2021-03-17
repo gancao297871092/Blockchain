@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom"
 
 import Login from "../pages/login"
-import Home from "../pages/home"
+import Home from "../pages/draw"
 import StartPage from "../pages/startPage"
 
 export default class App extends Component {

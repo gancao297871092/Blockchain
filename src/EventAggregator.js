@@ -1,6 +1,6 @@
 import { GUID } from '@/utils/random'
 
-export default EventAggregator = {
+const EventAggregator = {
     //on事件
     onAggregator: {},
     //one事件
@@ -57,3 +57,5 @@ export default EventAggregator = {
         this.oneAggregator = {}
     }
 }
+
+export default EventAggregator

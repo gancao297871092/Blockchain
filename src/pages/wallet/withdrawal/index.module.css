@@ -1,0 +1,272 @@
+.contaner {
+  background: #fff;
+}
+
+.flexView {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.linearBg {
+  width: 100%;
+  height: 23.4375rem;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(
+    360deg,
+    rgba(232, 233, 235, 0) 0%,
+    #9799a2 35%,
+    #33333f 100%
+  );
+}
+
+.mapBg {
+  height: 190px;
+  position: absolute;
+  z-index: 2;
+}
+
+.card {
+  position: relative;
+  height: 36.6875rem;
+  background: #fff;
+  border-radius: 1rem;
+  margin-top: 1.875rem;
+  padding: 1.25rem;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 1.9375rem;
+  overflow: hidden;
+}
+
+.cardContainer {
+  margin-top: 5rem;
+}
+
+/* @ */
+.headBox {
+  display: flex;
+  align-items: center;
+}
+
+.imgBox {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.625rem;
+}
+
+.imgBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.headText {
+  width: 2.5625rem;
+  height: 1.25rem;
+  font-size: 1.25rem;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #0e1213;
+  line-height: 1.25rem;
+  margin-right: 0.625rem;
+}
+.headText2 {
+  width: 6.125rem;
+  height: 0.875rem;
+  font-size: 0.875rem;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+  color: #9099a9;
+  line-height: 0.875rem;
+}
+
+.btcBackImgBox {
+  position: absolute;
+  right: -1.25rem;
+  top: -1.25rem;
+  width: 7.875rem;
+  height: 8.375rem;
+}
+
+.btcBackImgBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.recordBox {
+  margin-top: 0.625rem;
+  display: flex;
+  align-items: center;
+}
+.record {
+  border-bottom: 0.0625rem solid #626d7e;
+  /* width: 9.3125rem; */
+  height: 1rem;
+  font-size: 1rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #626d7e;
+  line-height: 1rem;
+}
+.recordImgBox {
+  margin-left: 0.3125rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.recordImgBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin: 1.75rem auto 0;
+  width: 19.4375rem;
+  height: 4.5rem;
+  background: #f6f6f6;
+  border-radius: 0.5rem;
+}
+.quantity img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.25rem;
+  margin-right: 0.625rem;
+}
+.quantity span {
+  width: 9.625rem;
+  height: 1rem;
+  font-size: 1rem;
+  font-family: PingFangTC-Regular, PingFangTC;
+  font-weight: 400;
+  color: #9099a9;
+  line-height: 1rem;
+}
+
+.available {
+  margin-top: 1.25rem;
+  width: 9.3125rem;
+  height: 0.875rem;
+  font-size: 0.875rem;
+  font-family: PingFangTC-Regular, PingFangTC;
+  font-weight: 400;
+  color: #626d7e;
+  line-height: 0.875rem;
+}
+
+.moveGress {
+  margin-top: 0.625rem;
+}
+
+.contentText {
+  margin: 0.875rem auto 0;
+  width: 19.4375rem;
+  height: 2.625rem;
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9099a9;
+  line-height: 1.3125rem;
+}
+
+.addressBox {
+  padding: 0.625rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 1.25rem auto 0;
+  width: 19.4375rem;
+  height: 3.125rem;
+  background: #f6f6f6;
+  border-radius: 0.5rem;
+}
+
+.address {
+  margin-right: 2.5625rem;
+  width: 14.8125rem;
+  height: 1.25rem;
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9099a9;
+  line-height: 1.25rem;
+}
+
+.addressInput {
+  border: none;
+  outline: none;
+  background: none;
+  width: 14.8125rem;
+  height: 100%;
+}
+
+.submitBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem auto 0;
+  width: 19.4375rem;
+  height: 2.75rem;
+  background: #34b498;
+  border-radius: 0.25rem;
+}
+
+.submitBox span {
+  width: 3.5rem;
+  height: 1.375rem;
+  font-size: 1rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.375rem;
+}
+
+.contentBox {
+  margin: 1.25rem auto 0;
+  width: 19.4375rem;
+  height: 6.5625rem;
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9099a9;
+  line-height: 1.3125rem;
+}
+
+.addressIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.addressIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.quantity_input_box {
+  flex: 1;
+}
+
+.quantity_input {
+  box-sizing: border-box;
+  padding: 0 0.625rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.quantity_input::-webkit-input-placeholder {
+  height: 1rem;
+  font-size: 1rem;
+  font-family: PingFangTC-Regular, PingFangTC;
+  color: #9099a9;
+  line-height: 1rem;
+}

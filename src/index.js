@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './i18n';
+import './adaptatio';
 import App from './router';
+import 'antd-mobile/dist/antd-mobile.css';
+import getUserIp from "@/utils/getUserIp"
+
+getUserIp()
 
 ReactDOM.render(
     <React.StrictMode>

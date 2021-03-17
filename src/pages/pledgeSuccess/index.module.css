@@ -1,0 +1,266 @@
+.contaner {
+  background: #fff;
+}
+
+.flexView {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.linearBg {
+  width: 100%;
+  height: 23.4375rem;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(
+    360deg,
+    rgba(232, 233, 235, 0) 0%,
+    #9799a2 35%,
+    #33333f 100%
+  );
+}
+
+.mapBg {
+  height: 11.875rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding-top: 44px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  /* margin-top: 200px; */
+}
+.card {
+  background: #fff;
+  box-shadow: 0px 0px 1.875rem 0px rgba(21, 48, 101, 0.08);
+  border-radius: 1rem;
+  margin-top: 1.875rem;
+  padding: 1.25rem;
+}
+.cardContainer {
+  margin-top: 4.4375rem;
+}
+
+.cardContent {
+  position: relative;
+  width: 100%;
+  height: 31.125rem;
+  background: linear-gradient(
+    180deg,
+    rgba(36, 216, 149, 0.07) 0%,
+    rgba(36, 216, 149, 0) 100%
+  );
+  border-radius: 0.5rem 0.5rem 0px 0px;
+}
+.imgContainer {
+  position: absolute;
+  left: 50%;
+  top: 2.5rem;
+  transform: translateX(-50%);
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+.redemptionSuccess {
+  position: absolute;
+  left: 50%;
+  top: 6.5rem;
+  transform: translateX(-50%);
+  height: 1rem;
+  font-size: 1rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #626d7e;
+  line-height: 1rem;
+}
+
+.moneyCount {
+  position: absolute;
+  left: 50%;
+  top: 10rem;
+  transform: translateX(-50%);
+  width: 9.125rem;
+  height: 1.5rem;
+  font-size: 2rem;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+  color: #0e1213;
+  line-height: 1.5rem;
+}
+.iconImg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.iconImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.iconText {
+  margin-left: 0.3125rem;
+  width: 1.8125rem;
+  height: 1rem;
+  font-size: 0.875rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #626d7e;
+  line-height: 1rem;
+}
+
+.iconContainer {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 13rem;
+  transform: translateX(-50%);
+}
+
+.timeContainer {
+  height: 0.875rem;
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9099a9;
+  line-height: 0.875rem;
+  position: absolute;
+  left: 50%;
+  top: 16.5rem;
+  transform: translateX(-50%);
+}
+
+.timeContainer1 {
+  height: 0.875rem;
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9099a9;
+  line-height: 0.875rem;
+  position: absolute;
+  left: 50%;
+  top: 19.625rem;
+  transform: translateX(-50%);
+}
+
+.serviceCount {
+  position: absolute;
+  left: 50%;
+  top: 16.25rem;
+  transform: translateX(-50%);
+  height: 0.875rem;
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #626d7e;
+  line-height: 0.875rem;
+}
+
+.back {
+  padding-right: 0.625rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 4.6875rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.back img {
+  width: 100%;
+  height: 100%;
+}
+
+/* @下列是弹出层样式 */
+.modal {
+  box-sizing: border-box;
+  position: relative;
+  padding: 1.25rem;
+  width: 18.75rem;
+  height: 20.4375rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+}
+.closeImg {
+  position: absolute;
+  right: 1.25rem;
+  width: 1rem;
+  height: 1rem;
+}
+.closeImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.questionIcon {
+  position: absolute;
+  top: 3.1875rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.questionIcon img {
+  height: 100%;
+  width: 100%;
+}
+
+.isSureShuHui {
+  position: absolute;
+  top: 7.1875rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1rem;
+  font-size: 1rem;
+  font-family: PingFangTC-Medium, PingFangTC;
+  font-weight: 500;
+  color: #141516;
+  line-height: 1rem;
+}
+
+.notice {
+  position: absolute;
+  top: 10.0625rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 13.5rem;
+  height: 2.625rem;
+  font-size: 0.875rem;
+  font-family: PingFangTC-Regular, PingFangTC;
+  font-weight: 400;
+  color: #626d7e;
+  line-height: 1.3125rem;
+}
+
+.btn {
+  position: absolute;
+  top: 15.3125rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16.25rem;
+  height: 2.75rem;
+  background: #34b498;
+  border-radius: 0.25rem;
+}
+
+.btnText {
+  width: 100%;
+  height: 100%;
+  height: 1.25rem;
+  font-size: 0.875rem;
+  font-family: PingFangTC-Medium, PingFangTC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.25rem;
+  text-align: center;
+  line-height: 2.75rem;
+}

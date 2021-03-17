@@ -1,0 +1,126 @@
+.contaner {
+  background: #fff;
+}
+
+.flexView {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.lineBg {
+  height: 23.4375rem;
+  background: linear-gradient(
+    360deg,
+    rgba(232, 233, 235, 0) 0%,
+    #9799a2 35%,
+    #33333f 100%
+  );
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.mapBg {
+  width: 100%;
+  height: 11.875rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding-top: 4.375rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.fromView {
+  height: 32.375rem;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 1.25rem;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #141516;
+  line-height: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.descripe {
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #d90000;
+  line-height: 1.3125rem;
+  max-width: 19.375rem;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clear {
+  width: 100%;
+  background-color: #f6f6f6;
+  border-radius: 0.25rem;
+  margin-top: 1.25rem;
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  height: 3.125rem;
+  background-color: #f6f6f6;
+  border: 0;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 0.875rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9099a9;
+}
+
+.btnView {
+  width: 100%;
+  height: 2.75rem;
+  margin-top: 2.5rem;
+  border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #34b498;
+}
+
+.btnText {
+  font-size: 1rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.375rem;
+}
+
+.goback {
+  padding-right: 0.625rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}

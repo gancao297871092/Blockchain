@@ -1,0 +1,51 @@
+.contaner{
+    width: 100%;
+    height: 3.75rem;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position:absolute;
+    top: 0;
+    z-index: 9;
+}
+
+.left_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: .75rem;
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.flexView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.125rem;
+    height: 2rem;
+    background-color: #34B498;
+    border-radius: .25rem;
+    margin-right: .75rem;
+}
+
+.wealth{
+    font-size: .875rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: .875rem;
+}
+.toHome {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-Left: 1.25rem;
+    z-index: 999;
+}
